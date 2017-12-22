@@ -8,6 +8,10 @@ Not every website is complex or needs a cms. However, pure html might be to basi
 
 This is where Basic comes in, it gives you access to a small set of features that rapidly help you setup your next project.
 
+## Requirements
+
+- PHP 7.1
+
 ## Basic setup
 
 Clone this repository into a directory:
