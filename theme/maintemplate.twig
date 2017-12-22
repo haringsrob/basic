@@ -1,0 +1,22 @@
+{# This is your main template file, this should be the base of your website. #}
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+{% include 'components/head.twig' with {meta_description: block('meta_description')} %}
+<body>
+<div class="page-main">
+    {% block content %}{% endblock %}
+    {% include 'components/examples.twig' %}
+</div>
+
+{# This is the main js file, it is a minified version over everything defined in generate-resources.php#}
+<script src="{{ js_path }}/js.min.js"></script>
+{# Additional resources can be used to load specific page js files
+ Example:
+ {% block additional_resource %}
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+ {% endblock %}
+ #}
+{% block additional_resources %}{% endblock %}
+
+</body>
+</html>

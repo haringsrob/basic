@@ -1,0 +1,4 @@
+web/assets/*
+web/sitemap.xml
+compilation_cache
+vendor
