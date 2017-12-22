@@ -13,11 +13,14 @@ This is where Basic comes in, it gives you access to a small set of features tha
 Clone this repository into a directory:
 `git clone https://github.com/haringsrob/basic.git mynewsite`
 
+Go to the project directory `cd mynewsite`
+
 Run `composer install`
 
-Point your webserver to the `web` directory.
+Point your webserver to the `mynewsite/web` directory.
 
 The `settings.php` file should be populated with the correct settings.
+But you might only have to edit the base url to start.
 
 Then open up your web browser and your site should be running.
 
