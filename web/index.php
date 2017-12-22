@@ -27,6 +27,7 @@ $variables = [
     'js_path' => '/assets',
     'img_path' => '/images',
     'page_title' => $page->getPageHtmlTitle(),
+    'site_title' => $settings['site_title'],
     'primary_segment' => $page->getParentPage(),
     'segment' => $page->getCurrentPage(),
     'segment_title' => $page->getPageTitle(),

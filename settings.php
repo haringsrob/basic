@@ -10,7 +10,7 @@ $settings = [
     // If true, it will avoid caching the pages. Must be false on production.
     'debug' => true,
     // site_name will be in your page title by default.
-    'site_name' => 'Basic',
+    'site_title' => 'Basic',
     // base url is used to generate your sitemap. Without a trailing /.
     'base_url' => 'http://yoursiteurl.com',
     // Css assets: A list of css file, relative to your project root.
